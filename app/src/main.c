@@ -43,7 +43,7 @@ static const struct gpio_dt_spec led2 = GPIO_DT_SPEC_GET(LED2_NODE, gpios);
         k_msleep(1000);
 
         gpio_pin_toggle_dt(&led1);
-        k_msleep(1000);
+        k_msleep(500);
 
         gpio_pin_toggle_dt(&led2);
         k_msleep(1000);
