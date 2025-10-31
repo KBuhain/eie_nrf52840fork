@@ -74,5 +74,5 @@ void state_machine_init(void) {
 
 int state_machine_run(void) {
     return smf_run_state(SMF_CTX(&led_state_object));
-    k_msleep(1);
+    k_msleep(5);
 }
